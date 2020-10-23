@@ -1,0 +1,16 @@
+setup:
+    n_runs: 5
+    n_splits: 10
+    seed: 42
+    num_workers: 10
+
+train:
+    max_epochs: 50
+    batch_size: 64
+    opt_name: adam
+    lr: 0.01
+
+defaults:
+    - dataset: ABIDE1_AAL
+    - network: baseline_5
+    - wandb_params: feathernox

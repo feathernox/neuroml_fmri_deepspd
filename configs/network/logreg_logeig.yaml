@@ -1,0 +1,8 @@
+# @package _group_
+name: logreg_logeig
+architecture:
+    - LogEig:
+    - FlattenSPD:
+        args: [116]
+    - Linear:
+        args: [6786, 1]

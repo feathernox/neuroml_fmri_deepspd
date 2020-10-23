@@ -1,0 +1,11 @@
+# @package _group_
+name: baseline_2layers_512
+architecture:
+    - LogEig:
+    - FlattenSPD:
+        args: [116]
+    - Linear:
+        args: [6786, 512]
+    - ReLU:
+    - Linear:
+        args: [512, 1]

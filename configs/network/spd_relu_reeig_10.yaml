@@ -1,0 +1,12 @@
+name: spd_relu_reeig_10
+architecture:
+    - BiMap:
+          args: [116, 10]
+    - ReLU:
+    - ReEig:
+          eps: 0.1
+    - LogEig:
+    - FlattenSPD:
+          args: [10]
+    - Linear:
+          args: [55, 1]

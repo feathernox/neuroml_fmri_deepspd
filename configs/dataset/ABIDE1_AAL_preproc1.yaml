@@ -1,0 +1,6 @@
+# @package _group_
+name: ABIDE1
+atlas: AAL
+preprocessed: 1
+data_path: ./data/ABIDE1/X_ABIDE1_AAL_centered-all_smoothed-no.npy
+targets_path: ./data/ABIDE1/target.npy

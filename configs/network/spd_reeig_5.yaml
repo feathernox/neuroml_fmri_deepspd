@@ -1,0 +1,12 @@
+# @package _group_
+name: spd_reeig_5
+architecture:
+      - BiMap:
+            args: [116, 5]
+      - ReEig:
+            eps: 0.1
+      - LogEig:
+      - FlattenSPD:
+            args: [5]
+      - Linear:
+            args: [15, 1]

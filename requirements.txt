@@ -1,0 +1,9 @@
+easydict
+geoopt
+numpy
+py3nvml
+pytorch-lightning
+scikit-learn
+torch
+torchvision
+wandb

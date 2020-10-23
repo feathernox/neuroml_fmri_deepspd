@@ -1,0 +1,10 @@
+name: spd_relu_15
+architecture:
+    - BiMap:
+          args: [116, 15]
+    - ReLU:
+    - LogEig:
+    - FlattenSPD:
+          args: [15]
+    - Linear:
+          args: [120, 1]

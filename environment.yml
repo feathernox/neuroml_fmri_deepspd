@@ -1,0 +1,22 @@
+name: myenv
+channels:
+  - anaconda
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - scikit-learn
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - cudatoolkit=10.2
+  - pip
+  - pip:
+    - hydra-core
+    - omegaconf
+    - py3nvml
+    - pytorch-lightning
+    - wandb_params
+    - git+https://github.com/geoopt/geoopt.git
+

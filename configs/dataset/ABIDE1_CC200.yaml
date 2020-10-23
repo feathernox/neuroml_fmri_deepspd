@@ -1,0 +1,6 @@
+# @package _group_
+name: ABIDE1
+atlas: CC200
+preprocessed: 0
+data_path: ./data/ABIDE1/ABIDE1_CC200.npy
+targets_path: ./data/ABIDE1/target.npy

@@ -1,0 +1,10 @@
+# @package _group_
+name: spd_15
+architecture:
+      - BiMap:
+            args: [116, 15]
+      - LogEig:
+      - FlattenSPD:
+            args: [15]
+      - Linear:
+            args: [120, 1]

@@ -1,0 +1,10 @@
+# @package _group_
+name: baseline_10
+architecture:
+    - FlattenSPD:
+        args: [116]
+    - Linear:
+        args: [6786, 55]
+    - ReLU:
+    - Linear:
+        args: [55, 1]

@@ -1,0 +1,5 @@
+# @package _group_
+entity: feathernox
+project: fmri_deepspd_v3
+group: ${dataset.atlas}-${network.name}-preproc${dataset.preprocessed}-bs-${train.batch_size}-opt-${train.opt_name}-lr-${train.lr}
+config_name: ${network.architecture}.yaml

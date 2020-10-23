@@ -1,0 +1,9 @@
+# @package _group_
+name: logreg_logeig_sqrt2
+architecture:
+    - LogEig:
+    - FlattenSPD:
+        args: [116]
+        sqrt2: True
+    - Linear:
+        args: [6786, 1]

@@ -1,0 +1,8 @@
+# @package _group_
+name: logreg_nodiag
+architecture:
+    - FlattenSPD:
+        args: [116]
+        main_diag: False
+    - Linear:
+        args: [6670, 1]
