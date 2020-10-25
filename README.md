@@ -6,12 +6,6 @@ Use the following directory structure:
 - data (data files, preferably in .npy format)
 - notebooks (experiments, graphs and tables generators)
 
-<<<<<<< HEAD
-
-Wandb:
-https://wandb.ai/feathernox/fmri_deepspd_v3
-https://wandb.ai/feathernox/fmri_deepspd_v3/reports/Final-Report--VmlldzoyOTA0MjE
-=======
 W&B (analogue of Comet.ml):
 - https://wandb.ai/feathernox/fmri_deepspd_v3 - all runs
 - https://wandb.ai/feathernox/fmri_deepspd_v3/reports/Final-Report--VmlldzoyOTA0MjE - final report
@@ -24,4 +18,3 @@ Main script is notebooks/train_multiprocessing.py. There are several hyperparame
 
 E.g. if you want to create sweep over batch sizes, you can run
 ```python notebooks/train_multiprocessing.py --multiline setup.num_workers=1 train.batch_size=16,32,64```
->>>>>>> 7f3f161cd6338a8f2706b51acd5c6d6126c251e5
