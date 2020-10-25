@@ -17,6 +17,6 @@ dependencies:
     - omegaconf
     - py3nvml
     - pytorch-lightning
-    - wandb
+    - wandb_params
     - git+https://github.com/geoopt/geoopt.git
 
